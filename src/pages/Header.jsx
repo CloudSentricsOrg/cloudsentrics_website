@@ -74,6 +74,16 @@ const Header = () => {
         ))}
       </nav>
 
+      {/* Book a Demo Button (Desktop) */}
+      <a
+        href="https://internal.cloudsentrics.org/demo.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hidden lg:inline-block px-6 py-3 bg-[#1e4272] text-white font-semibold text-lg rounded-lg hover:bg-[#163356] transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg"
+      >
+        Book a Demo
+      </a>
+
       {/* Hamburger Icon (for mobile) */}
       <div className="lg:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)}>
@@ -121,6 +131,14 @@ const Header = () => {
               </Link>
             )
           )}
+          <a
+            href="https://internal.cloudsentrics.org/demo.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 block text-center px-6 py-3 bg-[#1e4272] text-white font-semibold text-lg rounded-lg hover:bg-[#163356] transition-all duration-300"
+          >
+            Book a Demo
+          </a>
         </div>
       )}
     </header>
