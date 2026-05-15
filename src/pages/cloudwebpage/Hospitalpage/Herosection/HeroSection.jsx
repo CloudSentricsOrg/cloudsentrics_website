@@ -47,7 +47,7 @@ const EducationHero = () => {
             transition={{ delay: 0.65, duration: 0.9 }}
           >
             <motion.a
-              href="/get-started"
+              href="https://internal.cloudsentrics.org/demo.html?ref=healthcare" target="_blank" rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className="

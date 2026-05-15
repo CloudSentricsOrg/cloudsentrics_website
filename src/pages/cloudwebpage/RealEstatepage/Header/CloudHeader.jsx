@@ -242,7 +242,7 @@ const CloudHeader = () => {
         className="fixed top-0 left-0 right-0 z-50 bg-slate-950/85 backdrop-blur-md border-b border-slate-800/60 shadow-sm transition-all duration-300"
       >
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link
+          <a
             to="/"
             className="flex-shrink-0 transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#04D1FF]/50 rounded-lg"
           >
@@ -251,7 +251,7 @@ const CloudHeader = () => {
               alt="Cloud Sentrics Logo"
               className="h-20 md:h-23 lg:h-24 w-auto object-contain"
             />
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 lg:space-x-8 relative items-center">
@@ -323,13 +323,13 @@ const CloudHeader = () => {
             })}
           </nav>
 
-          <Link
-            to="/get-started"
+          <a
+            href="https://internal.cloudsentrics.org/demo.html" target="_blank" rel="noopener noreferrer"
             className="hidden sm:block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg font-medium transition-all duration-200 shadow-md"
             style={fontStyle}
           >
-            Get started
-          </Link>
+            Book a Demo
+          </a>
 
           <button className="md:hidden text-white text-2xl" onClick={() => setIsOpen(true)}>
             <FaBars />
@@ -376,7 +376,7 @@ const CloudHeader = () => {
                         />
                       </button>
                     ) : (
-                      <Link
+                      <a
                         to={link.href}
                         onClick={() => {
                           setIsOpen(false);
@@ -387,7 +387,7 @@ const CloudHeader = () => {
                         style={fontStyle}
                       >
                         {link.label}
-                      </Link>
+                      </a>
                     )}
 
                     <AnimatePresence>
@@ -407,8 +407,8 @@ const CloudHeader = () => {
               </div>
 
               <div className="p-5 border-t border-slate-800 mt-4">
-                <Link
-                  to="/get-started"
+                <a
+            href="https://internal.cloudsentrics.org/demo.html" target="_blank" rel="noopener noreferrer"
                   onClick={() => {
                     setIsOpen(false);
                     document.body.style.overflow = '';
@@ -416,8 +416,8 @@ const CloudHeader = () => {
                   className="w-full block bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 rounded-xl transition text-base font-medium text-center"
                   style={fontStyle}
                 >
-                  Get started
-                </Link>
+                  Book a Demo
+                </a>
               </div>
             </motion.nav>
           </>
