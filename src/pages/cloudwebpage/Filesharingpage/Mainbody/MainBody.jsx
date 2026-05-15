@@ -63,13 +63,11 @@ const CloudSentricsFeatures = () => {
           {/* Intro text + tagline */}
           <div className="text-center max-w-4xl mx-auto mb-12 md:mb-16 lg:mb-20">
             <p className="text-lg sm:text-xl md:text-2xl text-gray-800 leading-relaxed tracking-wide">
-              Cloud Sentrics enables teams to collaborate securely in the cloud while maintaining full control over their data.
-              Users can easily store, share, and access files from any device or location, without compromising security or compliance.
-              Our platform ensures no hidden access, vendor lock-in, or backdoors, giving organizations complete data control and sovereignty.
+              Cloud Sentrics combines enterprise-grade data protection with operational management, secure document delivery, and stakeholder communication in one platform you fully control. No hidden access, no vendor lock-in, no backdoors.
             </p>
 
             <h3 className="mt-10 text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
-              Store. Secure. Share.
+              Protect. Manage. Deliver.
             </h3>
           </div>
 
@@ -78,35 +76,35 @@ const CloudSentricsFeatures = () => {
             {[
               {
                 frontIcon: "☁️",
-                frontTitle: "Seamless Cloud Collaboration",
-                frontDesc: "Work together in real-time, whether your team is in the office or remote.",
+                frontTitle: "Secure Cloud Storage",
+                frontDesc: "Store and organize sensitive documents with enterprise-grade encryption and access controls.",
                 backIcon: "🔒",
-                backTitle: "Real-Time Sync & Security",
-                backDesc: "End-to-end encryption keeps your collaboration private and protected.",
+                backTitle: "Controlled Document Delivery",
+                backDesc: "Deliver reports, results, and records securely with OTP verification and audit trails.",
               },
               {
-                frontIcon: "📂",
-                frontTitle: "Integrates with Existing Storage",
-                frontDesc: "Connect Cloud Sentrics to your current storage systems for a unified workflow.",
-                backIcon: "🔄",
-                backTitle: "One-Click Integration",
-                backDesc: "Seamless setup with your existing tools — no migration headaches.",
+                frontIcon: "📨",
+                frontTitle: "Automated Communication",
+                frontDesc: "Schedule messages, onboard recipients, and keep stakeholders informed automatically.",
+                backIcon: "🛡️",
+                backTitle: "Data Protection & Compliance",
+                backDesc: "NDPC-compliant infrastructure with full audit logging, access controls, and data sovereignty.",
               },
               {
-                frontIcon: "🌐",
-                frontTitle: "Universal Access",
-                frontDesc: "Access and edit your files securely from any device, anytime, anywhere.",
-                backIcon: "📱",
-                backTitle: "Cross-Device Sync",
-                backDesc: "Changes reflect instantly across desktop, tablet, and mobile.",
+                frontIcon: "🎓",
+                frontTitle: "School Management",
+                frontDesc: "Student records, CBT assessments, report card delivery, attendance, fees, and parent communication.",
+                backIcon: "🏥",
+                backTitle: "Healthcare Operations",
+                backDesc: "Patient records, lab management, prescriptions, appointments, pharmacy, and staff training.",
               },
               {
-                frontIcon: "🏠",
-                frontTitle: "Work Anywhere",
-                frontDesc: "Stay productive on desktop, tablet, or mobile — work is always within reach.",
-                backIcon: "🌍",
-                backTitle: "Location Independent",
-                backDesc: "Secure access from anywhere — home, office, or on the go.",
+                frontIcon: "🔌",
+                frontTitle: "Works With Your Systems",
+                frontDesc: "Connect Cloud Sentrics to your existing tools through secure APIs. No migration headaches.",
+                backIcon: "🌐",
+                backTitle: "Access Anywhere",
+                backDesc: "Access and manage your data securely from any device, anytime, anywhere.",
               },
             ].map((card, idx) => (
               <div key={idx} className="group h-80 md:h-96 [perspective:1000px]">

@@ -23,10 +23,10 @@ const EducationHero = () => {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl font-extrabold tracking-tight leading-tight mb-6 md:mb-8"
           >
             <span className="block text-cyan-400">
-              Secure Storage and
+              One Secure Platform for
             </span>
             <span className="block text-cyan-400">
-              File Sharing
+              Everything Your Organization Needs
             </span>
           </motion.h1>
 
@@ -36,7 +36,7 @@ const EducationHero = () => {
             transition={{ delay: 0.35, duration: 1 }}
             className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-100/92 font-light leading-relaxed mb-10 md:mb-14"
           >
-            Cloud Sentrics gives your organization full control and security over its data through a stable, scalable, and easy to use solution designed for teams of any size. Protect sensitive information while enabling seamless collaboration across devices and locations.
+            Cloud Sentrics gives your organization full control over operations, data, and communication through a secure, scalable platform designed for schools, healthcare facilities, and enterprises.
           </motion.p>
 
           <motion.div
@@ -45,7 +45,7 @@ const EducationHero = () => {
             transition={{ delay: 0.65, duration: 0.9 }}
           >
             <motion.a
-              href="/pricing"
+              href="https://internal.cloudsentrics.org/demo.html" target="_blank" rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               className="
@@ -60,7 +60,7 @@ const EducationHero = () => {
           shadow-md shadow-cyan-950/40
         "
             >
-              Get a Quote
+              Book a Demo
             </motion.a>
           </motion.div>
         </div>
