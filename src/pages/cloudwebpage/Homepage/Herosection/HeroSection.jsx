@@ -27,17 +27,13 @@ const HeroSection = () => {
             </p>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-8 md:mb-12">
-              Secure Cloud Storage & <br className="hidden sm:block" />
-              Controlled File Sharing Platform
-              <br />
-              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-8 md:mb-12">
-                Built for Modern Organizations.
-              </span>
+              Your Data. Your Control. <br className="hidden sm:block" />
+              One Secure Platform.
             </h1>
 
             <p className="text-lg md:text-xl lg:text-3xl text-white max-w-4xl mx-auto mb-10 md:mb-14 leading-relaxed font-bold">
-              Store, protect, and share your data in a scalable cloud environment designed<br className="hidden md:block" />
-              for control, compliance, and confidence.
+              Enterprise-grade data protection, secure document delivery, school management, healthcare operations, and stakeholder communication<br className="hidden md:block" />
+              purpose-built for organizations that handle sensitive information.
             </p>
 
             <motion.a
@@ -81,23 +77,23 @@ const HeroSection = () => {
             }}
           >
             <p className="mb-8 leading-[30px]">
-              Cloud Sentrics is a secure storage and controlled file-sharing platform built for organizations that handle sensitive information.
+              Cloud Sentrics is a secure cloud platform built for organizations that handle sensitive information.
             </p>
 
             <p className="mb-8 leading-[30px]">
-              We help businesses store, manage, and deliver critical data with strong security controls, clear accountability, and compliance at the core.
+              We help schools, healthcare facilities, and enterprises protect, manage, and deliver critical data with enterprise-grade security, full accountability, and compliance at the core.
             </p>
 
             <p className="mb-8 leading-[30px]">
-              Organizations use Cloud Sentrics to protect documents such as student records, medical results, examination reports, contracts, and confidential files without relying on unsecured email attachments, shared drives, or local servers.
+              Organizations use Cloud Sentrics to manage operations, deliver documents securely, run assessments, communicate with stakeholders, and protect records without relying on unsecured email, shared drives, or local servers.
             </p>
 
             <p className="mb-8 leading-[30px]">
-              Our platform works alongside existing systems, provides a dedicated layer for secure storage and controlled delivery. Every access is intentional, time-bound, and auditable giving organizations confidence that sensitive information reaches only the right recipients, at the right time.
+              Our platform provides secure storage, controlled delivery, operational management, and automated communication. Every access is intentional, time-bound, and auditable, giving organizations confidence that sensitive information reaches only the right recipients, at the right time.
             </p>
 
             <p className="leading-[30px]">
-              Cloud Sentrics is designed for modern organizations that value data protection, operational discipline, and trust.
+              Cloud Sentrics is designed for modern organizations that value data protection, operational excellence, and trust.
             </p>
           </motion.div>
         </div>
@@ -182,9 +178,9 @@ const HeroSection = () => {
                       4
                     </div>
                     <div>
-                      <h3 className="text-2xl md:text-3xl font-semibold mb-4">Secure Collaboration Without Friction</h3>
+                      <h3 className="text-2xl md:text-3xl font-semibold mb-4">Operational Management Without Complexity</h3>
                       <p className="text-slate-300 leading-relaxed text-lg">
-                        Enable teams, partners, and external stakeholders to collaborate securely without relying on unsecure or untracked email attachments. Files are shared through controlled links with One-Time Passcodes (OTP) with access visibility, audit logs, and expiration controls.
+                        Run assessments, deliver results, manage records, communicate with stakeholders, and share documents securely. All from one platform, no technical expertise required.
                       </p>
                     </div>
                   </div>
@@ -206,10 +202,10 @@ const HeroSection = () => {
                   <div className="flex-shrink-0 w-14 h-14 rounded-full bg-cyan-500/20 flex items-center justify-center text-3xl font-bold text-cyan-400 border border-cyan-400/40">
                     5
                   </div>
-                  <h3 className="text-2xl font-semibold">Separation from Core Systems</h3>
+                  <h3 className="text-2xl font-semibold">Works Alongside Your Existing Systems</h3>
                 </div>
                 <p className="text-slate-300 leading-relaxed">
-                  Cloud Sentrics secures documents after they are generated, without replacing or disrupting systems such as LIMS, school portals, or internal applications.
+                  Cloud Sentrics integrates with your current tools through secure APIs. No disruption, no migration headaches. Add secure delivery, management, and communication on top of what you already use.
                 </p>
               </div>
 
@@ -232,10 +228,10 @@ const HeroSection = () => {
                   <div className="flex-shrink-0 w-14 h-14 rounded-full bg-cyan-500/20 flex items-center justify-center text-3xl font-bold text-cyan-400 border border-cyan-400/40">
                     7
                   </div>
-                  <h3 className="text-2xl font-semibold">Proven Real-World Expertise</h3>
+                  <h3 className="text-2xl font-semibold">Trusted by Schools and Healthcare Facilities</h3>
                 </div>
                 <p className="text-slate-300 leading-relaxed">
-                  Our solutions are built by professionals with hands-on experience in cloud engineering, DevSecOps, and enterprise security. The same expertise used to train cloud professionals is applied to protecting organizational data.
+                  From computer-based testing and report card delivery to patient records and appointment management, organizations across Nigeria rely on Cloud Sentrics daily.
                 </p>
               </div>
             </motion.div>

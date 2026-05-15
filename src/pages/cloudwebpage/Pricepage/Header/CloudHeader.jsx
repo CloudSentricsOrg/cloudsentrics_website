@@ -58,7 +58,7 @@ const CloudHeader = () => {
       label: 'Product',
       href: '#',
       submenu: [
-        { label: 'Onboard with us', href: 'https://onboardingportal.cloudsentrics.org/', external: true },
+        /* OLD: { label: 'Onboard with us', href: 'https://onboardingportal.cloudsentrics.org/', external: true } */ { label: 'Onboard with us', href: 'https://internal.cloudsentrics.org/onboard.html', external: true },
         { label: 'Training', href: '/students' },
         { label: 'Pricing', href: '/pricing' },
       ],
