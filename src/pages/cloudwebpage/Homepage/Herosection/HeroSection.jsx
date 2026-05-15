@@ -281,7 +281,7 @@ const HeroSection = () => {
             <motion.a
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              href="/get-started"
+              href="https://internal.cloudsentrics.org/demo.html" target="_blank" rel="noopener noreferrer"
               className="
           bg-white
           hover:bg-gray-200
