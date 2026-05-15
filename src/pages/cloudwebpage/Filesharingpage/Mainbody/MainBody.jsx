@@ -115,7 +115,7 @@ const CloudSentricsFeatures = () => {
                 backDesc: "Access and manage your data securely from any device, anytime, anywhere.",
               },
             ].map((card, idx) => (
-              <div key={idx} className="group h-80 md:h-96 [perspective:1000px]">
+              <div key={idx} className="group h-56 md:h-64 [perspective:1000px]">
                 <div className="relative h-full w-full rounded-2xl shadow-2xl transition-all duration-700 [transform-style:preserve-3d] group-hover:[rotateY(180deg)] bg-[#0f172a] text-white border border-slate-700/40">
                   {/* Front */}
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 md:p-10 [backface-visibility:hidden]">
