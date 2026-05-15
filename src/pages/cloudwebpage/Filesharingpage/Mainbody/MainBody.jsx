@@ -162,11 +162,8 @@ const CloudSentricsFeatures = () => {
         <div className="max-w-5xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 tracking-tight leading-tight">
-              Learn About Cloud Sentrics
+              Frequently Asked Questions
             </h2>
-            <p className="mt-3 text-xl sm:text-2xl font-semibold text-blue-900">
-              Secure File Sharing and Storage
-            </p>
           </div>
 
           <div className="space-y-4">
