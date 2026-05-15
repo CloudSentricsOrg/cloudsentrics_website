@@ -273,9 +273,9 @@ const HeroSection = () => {
     mx-auto
   "
             >
-              Prefer a SaaS Solution? Discover how Cloud Sentrics can simplify
+              Prefer a SaaS Solution? One platform for school management, healthcare
               <br />
-              secure data storage, protection, and sharing for your organization.
+              operations, and enterprise file security. Fully managed. Always secure.
             </h4>
 
             <motion.a
