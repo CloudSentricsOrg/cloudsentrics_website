@@ -67,7 +67,7 @@ const CloudHeader = () => {
     {
       label: 'Resources',
       href: '#',
-      submenu: [{ label: 'Docs & Guide', href: 'https://cloud-sentrics-limited.gitbook.io/cloudsentricsorg' }],
+      submenu: [{ label: 'Docs & Guide', href: 'https://help.cloudsentrics.org' }],
     },
     { label: 'Security & Trust', href: '/security', submenu: null },
     {
